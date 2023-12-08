@@ -27,6 +27,8 @@ funkwhale_media_path: "{{ funkwhale_data_path }}/media"
 # The `funkwhale_music_path` defines a place where you can put music that can then be imported into funkwhale.
 funkwhale_music_path: "{{ funkwhale_data_path }}/music"
 
+funkwhale_music_watch_enabled: false
+
 funkwhale_frontend_static_path: "{{ funkwhale_frontend_base_path }}/appstatic"
 
 funkwhale_frontend_env_path: "{{ funkwhale_frontend_base_path }}/env"
