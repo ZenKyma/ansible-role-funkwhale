@@ -28,9 +28,9 @@ funkwhale_media_path: "{{ funkwhale_data_path }}/media"
 funkwhale_music_path: "{{ funkwhale_data_path }}/music"
 
 # Enables automatic in-place import and watching file and metadata changes in the funkwhale_music_path directory.
-# Needs the first 8 symbols of the library ID after creating a library in the web UI. If your library ID is "769a2bc3-eb1d-4aff-9f84-2c4d80d5c2d1", provide "769a2bc3" here.
+# Needs the first 8 characters of the library ID after creating a library in the web UI. If your library ID is "769a2bc3-eb1d-4aff-9f84-2c4d80d5c2d1", provide "769a2bc3".
 funkwhale_watch_imports_enabled: false
-funkwhale_watch_imports_library_id: ""
+funkwhale_watch_imports_library_id: ""  # add first 8 characters of library ID here
 
 funkwhale_frontend_static_path: "{{ funkwhale_frontend_base_path }}/appstatic"
 
