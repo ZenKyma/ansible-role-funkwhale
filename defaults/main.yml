@@ -100,6 +100,7 @@ funkwhale_api_container_media_path: "{{ funkwhale_api_container_data_path }}/med
 funkwhale_api_container_music_path: "{{ funkwhale_api_container_data_path }}/music"
 funkwhale_api_container_static_path: "{{ funkwhale_api_container_data_path }}/static"
 
+
 funkwhale_api_container_network: '{{ funkwhale_container_network }}'
 
 # Increase this if you want to upload a lot of audio files via the web GUI and get "Can't upload file, ensure it's not to big"
